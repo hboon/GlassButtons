@@ -1,0 +1,11 @@
+# OS X noise
+.DS_Store
+
+# vi swap files
+*.swp
+
+# Xcode noise
+build/
+*.pbxuser
+*.mode1v3
+config
