@@ -46,8 +46,8 @@
 	IBOutlet MOGlassButton* smallButton;
 }
 
-@property (nonatomic,retain) IBOutlet UIButton* button;
-@property (nonatomic,retain) IBOutlet UIButton* smallButton;
+@property (nonatomic,retain) IBOutlet MOGlassButton* button;
+@property (nonatomic,retain) IBOutlet MOGlassButton* smallButton;
 
 @end
 
