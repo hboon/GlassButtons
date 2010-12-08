@@ -9,6 +9,10 @@ How To
 * Add Global.h, MOButton.h/.m, MOGlassButton.h/.m
 * See demo project.
 
+License
+---
+BSD unless otherwise stated.
+
 Questions?
 ---
 * Email: [hboon@motionobj.com](mailto:hboon@motionobj.com)

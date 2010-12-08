@@ -4,7 +4,6 @@
 //  Licensed under the terms of the BSD License, as specified below.
 //
 //  Created by Hwee-Boon Yar on Jul/07/2010.
-//  Copyright MotionObj 2010. All rights reserved.
 //
 /*
  Copyright 2010 Yar Hwee Boon. All rights reserved.
