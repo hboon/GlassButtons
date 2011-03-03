@@ -6,7 +6,8 @@ Uses public APIs to create native-looking glass buttons. No image files used. Bu
 How To
 ---
 * Include Quartz Core framework.
-* Add Global.h, MOButton.h/.m, MOGlassButton.h/.m
+* Include MOCommon - `git clone git://github.com/hboon/MOCommon.git && cd MOCommon && git checkout c9ff16c3d40a1e6ea7c0f9f47d59c626e519a677`
+* Add MOButton.h/.m, MOGlassButton.h/.m
 * See demo project.
 
 License

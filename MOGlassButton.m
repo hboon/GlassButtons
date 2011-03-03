@@ -38,7 +38,7 @@
 
 #import "MOGlassButton.h"
 
-#import "Global.h"
+#import "MOUtility.h"
 
 @implementation MOGlassButton
 
