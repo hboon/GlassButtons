@@ -38,12 +38,7 @@
 
 #import <Foundation/Foundation.h>
 
-
-@interface MOButton : UIButton {
-	UIColor* normalBackgroundColor;
-	UIColor* highlightedBackgroundColor;
-	UIColor* disabledBackgroundColor;
-}
+@interface MOButton : UIButton
 
 @property(nonatomic,retain) UIColor* normalBackgroundColor;
 @property(nonatomic,retain) UIColor* highlightedBackgroundColor;

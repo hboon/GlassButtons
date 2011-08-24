@@ -41,11 +41,7 @@
 
 #import "MOButton.h"
 
-@interface MOGlassButton : MOButton {
-	CAGradientLayer* gradientLayer1;
-	CAGradientLayer* gradientLayer2;
-	CALayer* outlineLayer;
-}
+@interface MOGlassButton : MOButton
 
 @property(nonatomic,retain) CAGradientLayer* gradientLayer1;
 @property(nonatomic,retain) CAGradientLayer* gradientLayer2;

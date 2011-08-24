@@ -41,10 +41,7 @@
 
 @class MOGlassButton;
 
-@interface GlassButtonsViewController : UIViewController {
-	IBOutlet MOGlassButton* button;
-	IBOutlet MOGlassButton* smallButton;
-}
+@interface GlassButtonsViewController : UIViewController
 
 @property (nonatomic,retain) IBOutlet MOGlassButton* button;
 @property (nonatomic,retain) IBOutlet MOGlassButton* smallButton;
