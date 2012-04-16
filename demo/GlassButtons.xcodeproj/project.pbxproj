@@ -18,15 +18,6 @@
 		C88770C611E3A97D0037C589 /* MOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C88770C311E3A97D0037C589 /* MOButton.m */; };
 		C88770C711E3A97D0037C589 /* MOGlassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C88770C511E3A97D0037C589 /* MOGlassButton.m */; };
 		C88770D211E3AA1A0037C589 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88770D111E3AA1A0037C589 /* QuartzCore.framework */; };
-		C8999462131FD76100CB9448 /* MODisplayFontsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999427131FD76100CB9448 /* MODisplayFontsView.m */; };
-		C8999463131FD76100CB9448 /* MOAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999429131FD76100CB9448 /* MOAssociation.m */; };
-		C8999464131FD76100CB9448 /* MONSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C899942B131FD76100CB9448 /* MONSStringAdditions.m */; };
-		C8999465131FD76100CB9448 /* MOUIDeviceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C899942D131FD76100CB9448 /* MOUIDeviceAdditions.m */; };
-		C8999466131FD76100CB9448 /* MOUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C899942F131FD76100CB9448 /* MOUIViewAdditions.m */; };
-		C8999467131FD76100CB9448 /* MOUIWebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999431131FD76100CB9448 /* MOUIWebViewAdditions.m */; };
-		C8999468131FD76100CB9448 /* MOUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999433131FD76100CB9448 /* MOUtility.m */; };
-		C8999469131FD76100CB9448 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C8999434131FD76100CB9448 /* README.md */; };
-		C899946A131FD76100CB9448 /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999436131FD76100CB9448 /* VTPG_Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,23 +39,6 @@
 		C88770C411E3A97D0037C589 /* MOGlassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOGlassButton.h; path = ../MOGlassButton.h; sourceTree = SOURCE_ROOT; };
 		C88770C511E3A97D0037C589 /* MOGlassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOGlassButton.m; path = ../MOGlassButton.m; sourceTree = SOURCE_ROOT; };
 		C88770D111E3AA1A0037C589 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C8999426131FD76100CB9448 /* MODisplayFontsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODisplayFontsView.h; sourceTree = "<group>"; };
-		C8999427131FD76100CB9448 /* MODisplayFontsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MODisplayFontsView.m; sourceTree = "<group>"; };
-		C8999428131FD76100CB9448 /* MOAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAssociation.h; sourceTree = "<group>"; };
-		C8999429131FD76100CB9448 /* MOAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOAssociation.m; sourceTree = "<group>"; };
-		C899942A131FD76100CB9448 /* MONSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONSStringAdditions.h; sourceTree = "<group>"; };
-		C899942B131FD76100CB9448 /* MONSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONSStringAdditions.m; sourceTree = "<group>"; };
-		C899942C131FD76100CB9448 /* MOUIDeviceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUIDeviceAdditions.h; sourceTree = "<group>"; };
-		C899942D131FD76100CB9448 /* MOUIDeviceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOUIDeviceAdditions.m; sourceTree = "<group>"; };
-		C899942E131FD76100CB9448 /* MOUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUIViewAdditions.h; sourceTree = "<group>"; };
-		C899942F131FD76100CB9448 /* MOUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOUIViewAdditions.m; sourceTree = "<group>"; };
-		C8999430131FD76100CB9448 /* MOUIWebViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUIWebViewAdditions.h; sourceTree = "<group>"; };
-		C8999431131FD76100CB9448 /* MOUIWebViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOUIWebViewAdditions.m; sourceTree = "<group>"; };
-		C8999432131FD76100CB9448 /* MOUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUtility.h; sourceTree = "<group>"; };
-		C8999433131FD76100CB9448 /* MOUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOUtility.m; sourceTree = "<group>"; };
-		C8999434131FD76100CB9448 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		C8999435131FD76100CB9448 /* VTPG_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPG_Common.h; sourceTree = "<group>"; };
-		C8999436131FD76100CB9448 /* VTPG_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPG_Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +78,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C89993D9131FD76100CB9448 /* MOCommon */,
 				C88770C111E3A9720037C589 /* MOGlassButton */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -154,39 +127,6 @@
 				C88770C511E3A97D0037C589 /* MOGlassButton.m */,
 			);
 			name = MOGlassButton;
-			sourceTree = "<group>";
-		};
-		C89993D9131FD76100CB9448 /* MOCommon */ = {
-			isa = PBXGroup;
-			children = (
-				C8999425131FD76100CB9448 /* Development */,
-				C8999428131FD76100CB9448 /* MOAssociation.h */,
-				C8999429131FD76100CB9448 /* MOAssociation.m */,
-				C899942A131FD76100CB9448 /* MONSStringAdditions.h */,
-				C899942B131FD76100CB9448 /* MONSStringAdditions.m */,
-				C899942C131FD76100CB9448 /* MOUIDeviceAdditions.h */,
-				C899942D131FD76100CB9448 /* MOUIDeviceAdditions.m */,
-				C899942E131FD76100CB9448 /* MOUIViewAdditions.h */,
-				C899942F131FD76100CB9448 /* MOUIViewAdditions.m */,
-				C8999430131FD76100CB9448 /* MOUIWebViewAdditions.h */,
-				C8999431131FD76100CB9448 /* MOUIWebViewAdditions.m */,
-				C8999432131FD76100CB9448 /* MOUtility.h */,
-				C8999433131FD76100CB9448 /* MOUtility.m */,
-				C8999434131FD76100CB9448 /* README.md */,
-				C8999435131FD76100CB9448 /* VTPG_Common.h */,
-				C8999436131FD76100CB9448 /* VTPG_Common.m */,
-			);
-			name = MOCommon;
-			path = ../../MOCommon;
-			sourceTree = SOURCE_ROOT;
-		};
-		C8999425131FD76100CB9448 /* Development */ = {
-			isa = PBXGroup;
-			children = (
-				C8999426131FD76100CB9448 /* MODisplayFontsView.h */,
-				C8999427131FD76100CB9448 /* MODisplayFontsView.m */,
-			);
-			path = Development;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +183,6 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* GlassButtonsViewController.xib in Resources */,
-				C8999469131FD76100CB9448 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,14 +198,6 @@
 				28D7ACF80DDB3853001CB0EB /* GlassButtonsViewController.m in Sources */,
 				C88770C611E3A97D0037C589 /* MOButton.m in Sources */,
 				C88770C711E3A97D0037C589 /* MOGlassButton.m in Sources */,
-				C8999462131FD76100CB9448 /* MODisplayFontsView.m in Sources */,
-				C8999463131FD76100CB9448 /* MOAssociation.m in Sources */,
-				C8999464131FD76100CB9448 /* MONSStringAdditions.m in Sources */,
-				C8999465131FD76100CB9448 /* MOUIDeviceAdditions.m in Sources */,
-				C8999466131FD76100CB9448 /* MOUIViewAdditions.m in Sources */,
-				C8999467131FD76100CB9448 /* MOUIWebViewAdditions.m in Sources */,
-				C8999468131FD76100CB9448 /* MOUtility.m in Sources */,
-				C899946A131FD76100CB9448 /* VTPG_Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
