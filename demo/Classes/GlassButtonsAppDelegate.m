@@ -39,6 +39,7 @@
 
 #import "GlassButtonsAppDelegate.h"
 #import "GlassButtonsViewController.h"
+#import "MOButton.h"
 
 @implementation GlassButtonsAppDelegate
 
@@ -52,7 +53,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+	MOButtonSettings *prefs = [MOButtonSettings sharedSettings];
+	prefs.normalBackgroundColour = [UIColor colorWithRed:0.004 green:0.322 blue:0.055 alpha:1.000];
+	prefs.textColor = [UIColor whiteColor];
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
