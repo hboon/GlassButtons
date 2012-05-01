@@ -50,7 +50,6 @@
     [super viewDidLoad];
 
 	// Configure buttons added to XIB
-	[self.button setupAsGreenButton];
 	[self.smallButton setupAsSmallGreenButton];
 
 	// Create and configure button programmatically

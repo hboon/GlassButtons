@@ -38,12 +38,26 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MOButton : UIButton
+@class MOButtonSettings;
 
-@property(nonatomic,retain) UIColor* normalBackgroundColor;
-@property(nonatomic,retain) UIColor* highlightedBackgroundColor;
-@property(nonatomic,retain) UIColor* disabledBackgroundColor;
+@interface MOButton: UIButton
 
-- (void)setBackgroundColor:(UIColor*)aColor forState:(UIControlState)aState;
+@property (assign) MOButtonSettings *settings;
+@property (nonatomic,retain) UIColor *normalBackgroundColor;
+@property (nonatomic,retain) UIColor *highlightedBackgroundColor;
+@property (nonatomic,retain) UIColor *disabledBackgroundColor;
+
+-(void)setBackgroundColor:(UIColor*)aColor forState:(UIControlState)aState;
+
+@end
+
+@interface MOButtonSettings: NSObject <NSCopying>
+
+@property (retain) UIColor *normalBackgroundColour;
+@property (retain) UIColor *highlightedBackgroundColor;
+@property (retain) UIColor *disabledBackgroundColor;
+@property (retain) UIColor *textColor;
+
++(MOButtonSettings *)sharedSettings;
 
 @end
