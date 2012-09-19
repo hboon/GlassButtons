@@ -60,16 +60,10 @@
 	MOGlassButton* smallRedButton = [[MOGlassButton alloc] initWithFrame:CGRectMake(110, 260, 100, 23)];
 	[smallRedButton setupAsSmallRedButton];
 	[smallRedButton setTitle:@"Smaller" forState:UIControlStateNormal];
-	[self.view addSubview:[redButton autorelease]];
-	[self.view addSubview:[smallRedButton autorelease]];
+	[self.view addSubview:redButton];
+	[self.view addSubview:smallRedButton];
 }
 
 
-- (void)dealloc {
-	self.button = nil;
-	self.smallButton = nil;
-
-    [super dealloc];
-}
 
 @end

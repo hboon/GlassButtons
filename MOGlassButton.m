@@ -62,16 +62,16 @@
 	self.layer.borderColor = [MO_RGBCOLOR(100, 103, 107) CGColor];
 	self.layer.borderWidth = 1.0f;
 
-	self.gradientLayer1 = [[[CAGradientLayer alloc] init] autorelease];
+	self.gradientLayer1 = [[CAGradientLayer alloc] init];
 	gradientLayer1.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/2);
 	gradientLayer1.colors = [NSArray arrayWithObjects:(id)[MO_RGBACOLOR(255, 255, 255, 0.45) CGColor], (id)[MO_RGBACOLOR(255, 235, 255, 0.1) CGColor], nil];
 	[self.layer insertSublayer:gradientLayer1 atIndex:0];
 
-	self.gradientLayer2 = [[[CAGradientLayer alloc] init] autorelease];
+	self.gradientLayer2 = [[CAGradientLayer alloc] init];
 	gradientLayer2.frame = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, self.frame.size.height/2);
 	gradientLayer2.colors = [NSArray arrayWithObjects:(id)[MO_RGBACOLOR(205, 205, 205, 0) CGColor], (id)[MO_RGBACOLOR(235, 215, 215, 0.2) CGColor], nil];
 
-	self.outlineLayer = [[[CALayer alloc] init] autorelease];
+	self.outlineLayer = [[CALayer alloc] init];
 	outlineLayer.frame = CGRectMake(0, 1, self.frame.size.width, self.frame.size.height);
 	outlineLayer.borderColor = [MO_RGBCOLOR(255, 255, 255) CGColor];
 	outlineLayer.borderWidth = 1.0f;
@@ -92,15 +92,6 @@
 - (void)awakeFromNib {
 	[super awakeFromNib];
 	[self setupLayers];
-}
-
-
-- (void)dealloc {
-	self.gradientLayer1 = nil;
-	self.gradientLayer2 = nil;
-	self.outlineLayer = nil;
-
-	[super dealloc];
 }
 
 

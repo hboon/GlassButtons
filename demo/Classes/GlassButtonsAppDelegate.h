@@ -43,8 +43,8 @@
 
 @interface GlassButtonsAppDelegate : NSObject <UIApplicationDelegate>
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet GlassButtonsViewController *viewController;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet GlassButtonsViewController *viewController;
 
 @end
 
