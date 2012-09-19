@@ -42,10 +42,6 @@
 
 @implementation MOButton
 
-@synthesize normalBackgroundColor;
-@synthesize highlightedBackgroundColor;
-@synthesize disabledBackgroundColor;
-
 // Have to set up handlers for various touch events. Can't rely on UIButton.highlighted and enabled property because highlighted is still YES when touch up.
 - (void)setupStateChangeHandlers {
 	[self addTarget:self action:@selector(buttonUp:event:) forControlEvents:(UIControlEventTouchUpOutside|UIControlEventTouchUpInside|UIControlEventTouchCancel|UIControlEventTouchDragExit)];

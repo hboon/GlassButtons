@@ -51,11 +51,6 @@
 
 @implementation MOGlassButton
 
-@synthesize gradientLayer1;
-@synthesize gradientLayer2;
-@synthesize outlineLayer;
-
-
 - (void)setupLayers {
 	self.layer.cornerRadius = 8.0f;
 	self.layer.masksToBounds = YES;
@@ -63,20 +58,20 @@
 	self.layer.borderWidth = 1.0f;
 
 	self.gradientLayer1 = [[CAGradientLayer alloc] init];
-	gradientLayer1.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/2);
-	gradientLayer1.colors = [NSArray arrayWithObjects:(id)[MO_RGBACOLOR(255, 255, 255, 0.45) CGColor], (id)[MO_RGBACOLOR(255, 235, 255, 0.1) CGColor], nil];
-	[self.layer insertSublayer:gradientLayer1 atIndex:0];
+	self.gradientLayer1.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/2);
+	self.gradientLayer1.colors = @[(id)[MO_RGBACOLOR(255, 255, 255, 0.45) CGColor], (id)[MO_RGBACOLOR(255, 235, 255, 0.1) CGColor]];
+	[self.layer insertSublayer:self.gradientLayer1 atIndex:0];
 
 	self.gradientLayer2 = [[CAGradientLayer alloc] init];
-	gradientLayer2.frame = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, self.frame.size.height/2);
-	gradientLayer2.colors = [NSArray arrayWithObjects:(id)[MO_RGBACOLOR(205, 205, 205, 0) CGColor], (id)[MO_RGBACOLOR(235, 215, 215, 0.2) CGColor], nil];
+	self.gradientLayer2.frame = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, self.frame.size.height/2);
+	self.gradientLayer2.colors = @[(id)[MO_RGBACOLOR(205, 205, 205, 0) CGColor], (id)[MO_RGBACOLOR(235, 215, 215, 0.2) CGColor]];
 
 	self.outlineLayer = [[CALayer alloc] init];
-	outlineLayer.frame = CGRectMake(0, 1, self.frame.size.width, self.frame.size.height);
-	outlineLayer.borderColor = [MO_RGBCOLOR(255, 255, 255) CGColor];
-	outlineLayer.borderWidth = 1.0f;
-	outlineLayer.borderWidth = 1.0f;
-	outlineLayer.opacity = 0.2;
+	self.outlineLayer.frame = CGRectMake(0, 1, self.frame.size.width, self.frame.size.height);
+	self.outlineLayer.borderColor = [MO_RGBCOLOR(255, 255, 255) CGColor];
+	self.outlineLayer.borderWidth = 1.0f;
+	self.outlineLayer.borderWidth = 1.0f;
+	self.outlineLayer.opacity = 0.2;
 }
 
 
@@ -98,9 +93,9 @@
 - (void)layoutSubviews {
 	[super layoutSubviews];
 
-	gradientLayer1.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/2);
-	gradientLayer2.frame = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, self.frame.size.height/2);
-	outlineLayer.frame = CGRectMake(0, 1, self.frame.size.width, self.frame.size.height);
+	self.gradientLayer1.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/2);
+	self.gradientLayer2.frame = CGRectMake(0, self.frame.size.height/2, self.frame.size.width, self.frame.size.height/2);
+	self.outlineLayer.frame = CGRectMake(0, 1, self.frame.size.width, self.frame.size.height);
 }
 
 #pragma mark Default Button Background Colors
